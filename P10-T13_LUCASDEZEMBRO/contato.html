@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Contato GIGA LD Informática</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/icon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic|Raleway:400,300,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+  <script>
+	mensagem (){
+		alert('Sua mensagem foi enviada com sucesso!')
+	}
+  </script>
+
+  <!-- =======================================================
+    Template Name: Link
+    Template URL: https://templatemag.com/link-bootstrap-agency-template/
+    Author: TemplateMag.com
+    License: https://templatemag.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!-- Menu -->
+  <nav class="menu" id="theMenu">
+    <div class="menu-wrap">
+      <h1 class="logo"><a href="index.html">GIGA LD Informática</a></h1>
+      <i class="fa fa-arrow-right menu-close"></i>
+      <a href="index.html">Home</a>
+	  <a href="sobre.html">Sobre</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="galeria.html">Galeria</a>
+	  <a href="localizacao.html">Localização</a>
+      <a href="contato.html">Contato</a>
+    </div>
+
+    <!-- Menu button -->
+    <div id="menuToggle"><i class="fa fa-bars"></i></div>
+  </nav>
+
+  <!-- MAIN IMAGE SECTION -->
+  <div id="aboutwrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h2>Fale<br/>
+			Com a Gente.
+		  </h2>
+        </div>
+      </div>
+      <!-- row -->
+    </div>
+    <!-- /container -->
+  </div>
+  <!-- /aboutwrap -->
+
+  <!-- CHART IMAGE SECTION -->
+  <div id="chartwrap">
+    <div class="container">
+      <div class="row mt">
+        <div class="col-lg-8 chart hidden-sm hidden-xs">
+        </div>
+        <!-- col-lg-8 -->
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /.container -->
+  </div>
+  <!-- chartwrap -->
+   <div id="contact-wrap">
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4">
+          <h4>Por favor<br/>Preencha o formulário
+            para contato.</h4><br/>
+          </p>
+        </div>
+    <div class="container">
+        <div class="col-md-8">
+
+          <form  role="form" action ="confirmacao.html" method="POST">
+
+            <div class="form-group">
+              <label for="contact-name">Seu nome</label>
+              <input type="name" name="name" class="form-control" required ="required" pattern="[a-zA-Z\s]+$" title ="Insira apenas letras" id="contact-name" placeholder="Insira o seu nome" data-rule="minlen:4" data-msg="O nome deve ter pelo menos 4 caracteres" >
+              <!--<div class="validate"></div>-->
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Seu email</label>
+              <input type="email" name="email" class="form-control" required ="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="contact-email" placeholder="Insira o seu email" data-rule="email" data-msg="Por favor insira um email válido">
+              <!--<div class="validate"></div>-->
+            </div>
+            <div class="form-group">
+              <label for="contact-subject">Assunto</label>
+              <input type="text" name="subject" class="form-control" required ="required" id="contact-subject" placeholder="Insira o assunto" data-rule="minlen:4" data-msg="Por favor insira um assunto">
+              <!--<div class="validate"></div>-->
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message">Sua mensagem</label>
+              <textarea class="form-control" name="message" id="contact-message" required ="required" placeholder="Deixe aqui a sua mensagem" rows="5" data-rule="required" data-msg="Por favor, escreva algo para nós"></textarea>
+              <!--<div class="validate"></div>-->
+            </div>
+            <div class="form-send">
+              <input type="submit" value ="Enviar" class="btn btn-large">
+			  <input type="reset" value ="Limpar" class="btn btn-large">
+            </div>
+          </form>
+        </div>
+      </div>
+        <!-- row -->
+    </div>
+    <!-- container -->
+  </div>
+  </div>
+  <!-- Contact Footer -->
+  <br><br><br>	
+  <div id="copyrights">
+    <div class="container">
+      <p>
+        &copy; Copyrights <strong>GIGA LD Informática</strong> e <strong>Lucas Dezembro</strong>. Todos os direitos reservados.
+      </p>
+    </div>
+  </div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/php-mail-form/validate.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/animonscroll/animonscroll.js"></script>
+  <script src="lib/modernizr/modernizr.custom.js"></script>
+  <script src="lib/masonry/masonry.min.js"></script>
+  <script src="lib/classie/classie.js"></script>
+  <script src="lib/imagesloaded/imagesloaded.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>

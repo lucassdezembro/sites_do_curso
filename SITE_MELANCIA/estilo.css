@@ -1,0 +1,198 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*menu para todas as paginas*/
+#menu ul{           
+	display: block;
+	width: 100%;
+	height: 80px;
+	background-color: #90EE90;
+}
+
+#menu li{
+	display: block;
+}
+
+#menu a{
+	display: block;
+	float: left;
+	margin: 0px;
+	padding: 2.25% 9.5%;
+	text-decoration: none;
+	font-family: Arial Black;
+	color: #ffffff; 
+	text-shadow: #000 1px 2px;
+}
+
+#menu a:hover {
+	height: 20px;
+	background: #008000;
+}
+/*body todas as paginas*/
+body{         
+	background-color: rgba(250, 0, 0, 0.43);
+}
+
+h1{
+	padding: 4% 0%;
+	text-align: center;
+	color: #ffffff;
+	font-size: 500%;
+	text-shadow: #000 3px 2px;
+}
+
+h2{
+	padding: 2.5% 1%;
+	text-align: justify;
+	color: #ffffff;
+	text-shadow: #000 2px 2px;
+	font-size: 180%; 
+}
+
+p{
+	padding: 0% 0.6%;
+	color: #000000;
+	font-size: 140%;
+	font-family: Calibri Corpo;
+	text-align: justify;
+}
+
+#imagem1{                                                          
+	display:block;
+	margin: auto;
+	padding: auto;
+	width: 50%;
+	height: 50%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+}
+/*table tipos de melancia*/
+#table h3{ 
+	text-align: justify;
+	padding: 2% 12%;
+	font-size: 150%;
+	text-shadow: #000 2px 2px;
+}
+
+#table img{
+	padding: 0px 9px 30px 8px; 
+	width: 90%;
+	height: 25%;
+	border-radius: 10%;
+}
+
+#beneficios li{
+	margin: 0% 0% 0% 2.5%;
+	padding: 0% 0% 2% 1%;
+	font-family: Calibri Corpo;
+	font-size: 20px;
+}
+/*table informações nutricionais*/
+#tabela_nutricional{
+	padding: 0% 0% 2.5% 2.5%;
+
+}
+#tabela_nutricional table{
+		background-color: #ffffff;
+}
+	
+#tabela_nutricional td{
+	font-family: Calibri Corpo;
+	font-size: 120%;
+}
+
+#imagem_2{
+	display:block;
+	margin: auto;
+	padding: auto;
+	width: 50%;
+	height: 50%;
+	padding: 1.5% 0% 1.5% 0%;
+	border-radius: 10%;
+}
+
+h3{
+	font-family: Calibri Corpo;
+	padding: 0% 0% 0.7% 0.7%;
+	color: #ffffff;
+	font-size: 120%;
+	text-shadow: #000 2px 2px; 
+}
+/*ingredientes todas as receitas*/
+.ingredientes{
+	margin: 1.6%;
+	padding: 0% 0% 0.7% 1%;
+	font-size: 115%;
+	font-family: Calibri Corpo;
+	color: #000000;
+}
+
+#receita1{
+	display: block;
+	margin: auto;
+	padding: auto;
+	width: 47%;
+	height: 47%;
+	padding: 1% 0% 0.5% 0%;
+	border-radius: 10%;
+}
+/*link de creditos aos sites das receitas*/
+h6{
+	font-size: 125%;
+	text-align: center;
+	padding: 0% 0% 1% 0%;
+}
+
+#receita2{
+	display: block;
+	margin: auto;
+	padding: auto;
+	padding: 1.5% 0% 1% 0%;
+	width: 47%;
+	height: 47%;
+	border-radius: 10%;
+}
+
+#receita3{
+	display: block;
+	margin: auto;
+	padding: auto;
+	padding: 1.5% 0% 1% 0%;
+	width: 47%;
+	height: 47%;
+	border-radius: 10%;
+}
+/*formulário*/
+form{
+	padding: 2% 0%;
+	text-align: center;
+}
+
+input{
+	padding: 0.3% 0%;
+	margin: 0.3% 0%;
+}
+
+#textarea{
+	resize: none;
+}
+/*ancora e rodape todas as paginas*/
+#ancora {
+	padding: 3% 0%;
+	width: 3%;
+	height: 3%;
+}
+
+#rodape{
+	width: 100%;
+	height: 50px;
+	background-color: #90EE90;
+}
+
+#rodape h5{
+	padding: 1.5% 0% 0% 0%;
+	text-align: center;
+	font-family: Calibre Corpo;
+	font-size: 100%;
+}

@@ -1,0 +1,188 @@
+/* CSS Site Sobre Musculação */
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	margin: 5px;
+	background: #F0EFEF;	
+}
+/* cabeçalho */
+#header {
+	width: 800px;
+	height: 320px;
+	margin: 0px auto;
+}
+	#nav {
+		background-color: #696969;
+		width: 800px;
+		height: 100px;
+		list-style: none;
+		display: block;
+		margin-top: 10px;
+	}
+		#nav li {
+			display: block;
+			float: left;
+			padding: 35px 27px;
+			margin-bottom: 10px;
+		}
+		
+		#nav a {
+			color: #fff;
+			font-family: Arial Black;
+			text-decoration: none;
+			text-transform: uppercase;
+		}
+		
+		#nav a:hover {
+			border-bottom: 3px solid #00008B;
+		}
+		
+		#nav a.ativa {
+			border-bottom: 3px solid #00008B;	
+		}
+/* fim cabeçalho */
+/* section */
+#section {
+	width: 800px;
+	margin: 0px auto;
+}
+	.article {
+		background-color: #fff;
+		width: 400px;
+		height: 400px;
+		float: left;
+		margin: 10px 0px 10px 0px; 
+	}
+
+		p {
+			font-family: Times New Roman;
+			margin: 3px 9px 0px 9px;
+			font-size: 17px;
+			text-align: justify;
+		}
+
+		h1 {
+			text-shadow: 2px 2px #000;
+			color: #fff;
+			padding-bottom: 5px;
+			text-align: center;	
+		}
+	
+		}
+			h5 {
+				color: #fff;
+				text-shadow: 2px 2px #000;
+				padding-top: 25px;
+				text-align: center;
+				font-size: 20px;	
+			}
+			
+		.article img {
+			border: 1px solid #000;
+			width: 398px;
+			height: 398px;
+		}
+/* fim section */
+/*footer*/
+#footer {
+	margin: auto;
+	background: #696969;
+	display: block;
+	width: 800px;
+	height: 80px;
+}
+	
+	#footer h5{
+		font-family: Times New Roman;
+		color: #fff;
+		font-size: 25px; 
+		text-align: center;	
+		padding-top: 23px;
+		text-shadow: 3px 3px #000;
+	}
+
+/*fim footer*/
+/* Página: Quais os benefícios? */
+.titulo_main {
+	width: 800px;
+	float: left;
+	background: #B9B9B9;
+	height: 60px;
+	margin: 10px 0px;
+	padding-top: 20px;
+}
+
+.introducao {
+	margin: 10px 0px 10px 0px;
+	height: 120px;
+	width: 800px;
+	float: left;
+	display: block;
+	background: #fff;	
+}
+/*fim benefícios*/
+/*contato*/
+#contato {
+	float: left;
+	width: 800px;
+	background: #fff;	
+}
+
+	#contato form {
+		text-align: center;
+		margin: 10px 0px auto;	
+	}
+	
+		h3 {
+			font-size: 20px;
+			margin-bottom: 5px;
+		}
+	
+		input {
+			margin-bottom: 5px;
+			background-color: #F0EFEF;
+		}
+		
+		#textarea {
+			margin: 10px 0px;
+			background-color: #F0EFEF;
+			resize: none;	
+			
+		}
+		
+		#gif_final {
+			display: block;
+			margin: auto;
+			margin-top: 10px;
+			margin-bottom: 10px;	
+		}
+/*fim contato*/
+/*responsividade*/
+@media only screen and (max-device-width: 800px) {
+	.article {
+		width: 400px;
+		height: 600px;
+	}	
+	
+	p {
+		font-size: 20px;	
+	}
+	
+	.introducao {
+		height: 250px;
+	}
+	
+	#nav li {
+		padding: 35px 38px;
+	}	
+}
+
+@media only screen and (max-device-width: 799px) {		
+	#nav li {
+		padding: 35px 29px;
+	}		
+	
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang ="pt-br">
+	<head>
+		<title> Contato </title>
+		<meta charset ="utf-8">
+		<meta name ="viewport" content="width=device-width, inicial-scale=1">
+		<link rel ="icon" type ="image/png" href ="melancia.png">
+		<link rel ="stylesheet" type ="text/css" href ="estilo.css">
+	</head>
+	<body>
+		<nav id ="menu">
+		<ul>
+			<li><a href ="index.html"> HOME </a></li>
+			<li><a href ="plantio.html"> PLANTIO </a></li>
+			<li><a href ="receitas.html"> RECEITAS </a></li>
+			<li><a href ="contato.html"> CONTATO </a></li>
+		</ul>
+		</nav>
+		<h1> Fale conosco! </h1>
+		<hr>
+		<div id ="contato">
+			<form name= "formulario" method ="post">
+				 Nome: <input type ="text" required ="required" size ="60" maxlength ="50" name ="nome"
+						placeholder ="Digite aqui o seu nome">
+						<br>
+				 Telefone: <input type="tel" size ="60" required="required" maxlength="15" name="telefone" 
+							title ="preencha no formato: (99) 99999-9999" placeholder ="(99) 99999-9999" 
+							pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$">
+						<br>
+				 Email: <input type ="email" required="required" class="input-text" size ="60"
+						placeholder ="exemplo123@gmail.com" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+						<br>
+				<textarea id ="textarea" cols ="40" rows ="20" name ="textarea" required ="required" 
+						placeholder ="Deixe sua mensagem"></textarea>
+						<br>
+				<input type ="submit" name ="enviar" value ="Enviar">
+				<input type ="reset" name ="limpar" value ="Limpar">
+			</form>
+		</div>
+		<div id ="rodape">
+			<h5> Lucas Dezembro - Todos os direitos reservados. </h5>
+		</div>
+	</body>
+</html>
